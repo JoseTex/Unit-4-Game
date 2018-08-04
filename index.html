@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Car Collector</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+</head>
+
+<body>
+
+	<div class="header" id="collector">
+		<h1>Car Collector</h1>
+	</div>
+	<br>
+	<br>
+	<div class="instructions">
+		<h3>Here's how you play the game</h3>
+
+		<p> 
+			<br> * There will be four cars displayed as buttons on the page.
+
+			<br> * You will be shown a random number at the start of the game which you will need to try and collect.
+ 
+			<br> * When you click on a car, it will add a specific amount of cars to your total collected. 
+ 
+			<br> * You win if your total cars collected matches the number of cars avalible.
+ 
+			<br> * You lose if their score goes above the random number.
+ 
+			<br> * The game restarts whenever you win or lose.
+	 	</p>
+
+	</div>
+	<br>
+	<div class="cars">
+			<img src="assets/images/GTR.png" class=carButtons id="one" >
+			<img src="assets/images/Gen.jpg" class=carButtons id="two" >
+			<img src="assets/images/Jensen.jpg" class=carButtons id= "three" >
+			<img src="assets/images/Porsche.jpg" class=carButtons id= "four" >
+	</div>
+	<br>
+	<div class="numberToMatch">
+		<h2>Number Of Cars Avalible:
+			<span id= "randomNumber"></span>
+		</h2>
+	</div>
+	<br>
+	<div class="winsAndLosses">
+		<h2>Groups of Cars You Own:
+			<span id= "numberWins"></span>
+			<br>
+			<br>
+			Groups of Cars Crashed: 
+			<span id= "numberLosses"></span>
+		</h2>
+	</div>
+	<br>
+	<div class="userTotal" id="display">
+		<h2>You've Collected 
+			<span id="finalTotal"></span>
+			Cars
+		</h2>
+	</div>
+
+</body>
+</html>

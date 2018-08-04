@@ -1,0 +1,87 @@
+
+body{
+	background-image: url("../images/background.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin: auto;
+    width: 60%;
+    border: 3px solid white;
+    padding: 100px;
+}
+
+div{
+	background-color: lightpink;
+	margin: 10px;
+	width: 25%
+}
+div{
+	border: solid 2px antiquewhite;
+	padding: 10px;
+}
+h1, h3, span{
+	font-weight: bold;
+	text-align: center;
+	
+}
+h1{
+	font-size: 30pt;
+}
+
+div.header, div.cars{
+	background-color: black;
+	margin: auto;
+    width: 80%;
+    border: 3px solid black;
+	padding: 10px;
+	color: white; 
+}
+div.header, div.instructions{
+	width: 50%;
+	margin: auto;
+    width: 60%;
+    border: 3px solid black;
+    padding: 10px;
+}
+
+.numberToMatch, .winsAndLosses{
+	width: 20%;
+	height: 60px;
+	margin: auto;
+    border: 3px solid black;
+	padding: 10px;
+	text-align: center;
+}
+
+.userTotal{
+	width: 20%;
+	height: 60px;
+	margin: auto;
+    border: 3px solid black;
+	padding: 10px;
+	text-align: center;
+}
+.cars{
+	clear: both;
+	width: 300px;
+}
+.carButtons{
+	height: 100px;
+	margin: 10px;
+}
+#display{
+	background-color: black;
+	color: lightpink;
+}
+#collector{
+	background-image: url("../images/twerk.jpg");
+	background-position: center; 
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin: auto;
+    width: 60%;
+    border: 3px solid white;
+	padding: 100px;
+	color: lightpink;
+	
+}
